@@ -11,12 +11,12 @@ pagination:
 ## Skills & Qualifications
 
 |:---------------------------:|:-----------------------:|:-----------------------------------------:|
-| - C++                       | Unity                   | Blender                                   |     
-| - C#                        | GameMaker Studio        | Adobe Creative Suite                      |
-| - Java                      | Git/GitHub              | PCB design                                |
-| - PostgreSQL                | Visual Studio           | Soldering (Surface & Through-hole)        |
-| - Circuit Analysis          | Windows                 | MacOS                                     |
-| - Linux                     |                         |                                           |
+| C++                       | Unity                   | Blender                                   |     
+| C#                        | GameMaker Studio        | Adobe Creative Suite                      |
+| Java                      | Git/GitHub              | PCB design                                |
+| PostgreSQL                | Visual Studio           | Soldering (Surface & Through-hole)        |
+| Circuit Analysis          | Windows                 | MacOS                                     |
+| Linux                     |                         |                                           |
 
 ## Profile
   Game development senior with a background in IT and computer science, seeking a technical or creative
@@ -57,28 +57,28 @@ pagination:
   
   _Jan. 2024 – Jan. 2025_
   
-    * Used communication skills and automotive knowledge to obtain and fulfill orders from possible
+  * Used communication skills and automotive knowledge to obtain and fulfill orders from possible
     commercial customers including automotive shops, inspection stations, and trucking businesses.
-    * Worked with commercial vendors to ensure on-time delivery of parts to retail customers.
+  * Worked with commercial vendors to ensure on-time delivery of parts to retail customers.
   
   **Assistant Manager**, American Eagle Outfitters, Easton, PA 
   
   _May 2023 – Jan. 2024_
   
-    * Utilized analytical skills to interpret KPI reports, identifying opportunities for increased sales and
+  * Utilized analytical skills to interpret KPI reports, identifying opportunities for increased sales and
     improved customer loyalty, resulting in increased sales and repeat business.
-    * Helped train new team members on company policies and customer service.
+  * Helped train new team members on company policies and customer service.
 
 ## Campus Involvement
 
 **IGDA** 
 
-_Sept. 2024 – May 2026_
+  _Sept. 2024 – May 2026_
 
 **Shoofly Literary Magazine** 
 
-_April 2025 – May 2026_
+  _April 2025 – May 2026_
 
 **IEEE** 
 
-_Sept. 2022 – Jan. 2024_
+  _Sept. 2022 – Jan. 2024_
