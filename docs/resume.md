@@ -6,19 +6,22 @@ pagination:
 
 # My Resume
 
+---
+
 ## Skills & Qualifications
 
-|:--------------------|:------------------|:------------------------------------|
-| C++                 | Unity             | Blender                             |     
-| C#                  | GameMaker Studio  | Adobe Creative Suite                |
-| Java                | Git/GitHub        | PCB design                          |
-| PostgreSQL          | Visual Studio     | Soldering (Surface & Through-hole)  |
-| Circuit Analysis    | Windows           | MacOS                               |
-| Linux               |
+|:-------------------------:|:-----------------------:|:-----------------------------------------:|
+| C++                       | Unity                   | Blender                                   |     
+| C#                        | GameMaker Studio        | Adobe Creative Suite                      |
+| Java                      | Git/GitHub              | PCB design                                |
+| PostgreSQL                | Visual Studio           | Soldering (Surface & Through-hole)        |
+| Circuit Analysis          | Windows                 | MacOS                                     |
+| Linux                     |                         |                                           |
 
 ## Profile
   Game development senior with a background in IT and computer science, seeking a technical or creative
   role to design and build high-quality, innovative interactive experiences.
+
 
 ## Education
   B.S. Kutztown University of Pennsylvania _Kutztown, PA_
