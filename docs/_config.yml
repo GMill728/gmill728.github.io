@@ -103,8 +103,9 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
-  - { url: '/resume', text: 'resume' }
+  # - { url: '/about', text: 'About' } ##eventually add an about page
+  # - { url: '/blog', text: 'Blog' } ##eventually add a blog page
+  - { url: '/resume', text: 'Resume' }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
