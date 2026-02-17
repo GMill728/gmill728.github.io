@@ -9,6 +9,7 @@ pagination:
 [Home](/index.html).
 
 ## Skills
+
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
@@ -17,6 +18,7 @@ pagination:
 | ok           | good `zoute` drop | yumm  |
 
 ## Education
+
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
