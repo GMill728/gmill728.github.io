@@ -104,6 +104,7 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
+  - { url: '/resume', text: 'resume' }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
