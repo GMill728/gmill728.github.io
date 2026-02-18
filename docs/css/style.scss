@@ -140,13 +140,27 @@ button.btn, input.btn {
   p {
     margin: 2em 0 4em 0;
   }
+  /*
   .hero-buttons {
     margin: 0 auto;
     display: table;
     i {
       padding-right: 0.5em;
     }
+  }*/
+    //^OG
+    .hero-buttons {
+  display: flex;
+  justify-content: center;   /* horizontal centering */
+  align-items: center;       /* vertical alignment (if needed) */
+  gap: 1rem;                 /* space between buttons */
   }
+
+.hero-buttons i {
+  padding-right: 0.5em;
+  }
+
+  
 }
 
 /*--------------------------------------------------------------
