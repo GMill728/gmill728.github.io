@@ -348,11 +348,13 @@ button.btn, input.btn {
   border-radius: 50%;
 }
 
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.img-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
+
 
 /*--------------------------------------------------------------
 	5.0 Code formatting
