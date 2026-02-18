@@ -20,6 +20,7 @@
 
 title: "Gavin's Portfolio"
 email: 'gavv.inquires@gmail.com'
+profile-picture: "/docs/img/posts/me.jpg"
 description: "I'm a indie game developer and HAM radio operator from Nazareth, PA"
 #baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://gmill728.github.io/docs" # the base hostname & protocol for your site, e.g. http://example.com

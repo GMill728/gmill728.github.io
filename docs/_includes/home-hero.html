@@ -12,6 +12,10 @@
           <h1 class="text-center">{{site.title}}</h1>
           {% endif %}
 
+          {% if site.profile-picture != '' %}
+          <img class="img-circle center-block" src="{{site.profile-picture}}" alt="Profile Picture">
+          {% endif %}
+
           {% if site.description != '' or site.enable_contact == true %}
           <p class="text-center">
             {% if site.description != '' %}
