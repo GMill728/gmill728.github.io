@@ -45,6 +45,9 @@
             {% if site.medium_username %}
               <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa-brands fa-medium fa-lg"></i>Medium</button></a>
             {% endif %}
+            {% if site.neocity %}
+              <a href="https://{{ site.neocity }}"><button class="btn btn-default btn-lg"><i class="fa-solid fa-circle-nodes fa-lg"></i>Neocity</button></a>
+            {% endif %}
 
             {% if site.ham_radio_callsign %}
               <a href="https://www.qrz.com/db/{{ site.ham_radio_callsign }}"><button class="btn btn-default btn-lg"><i class="fa-solid fa-satellite fa-lg"></i>QRZ</button></a>
