@@ -363,7 +363,7 @@ button.btn, input.btn {
   height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  padding-top: 30px;
+  margin-top: 30px;   /* instead of padding */
 }
 
 .center-block {
