@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: right
-title: 'Vivat-The-Arrowhead-Chronicles'
+title: 'Vivat-The-Arrowhead-Chronicles              '
 date: 2026-02-17 20:37:00
 categories: development
 tags: DevOps Unity C#
