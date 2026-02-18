@@ -25,9 +25,11 @@ pagination:
 
 ## Education
   B.S. Kutztown University of Pennsylvania _Kutztown, PA_
-  **Major: Game Development May 2026**
+  
+  **Major: Game Development** _May 2026_
+  
   **Dual Minors: Information Technology & Computer Science**
-  <br/>_GPA: 3.3_
+  <br/>_GPA: 3.5_
 
 ## Related Coursework
   * 3D Game Development
