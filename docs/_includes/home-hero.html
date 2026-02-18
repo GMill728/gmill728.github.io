@@ -12,15 +12,17 @@
           <h1 class="text-center">{{site.title}}</h1>
           {% endif %}
 
-          {% if site.profile-picture != '' %}
-          <img class="img-circle center-block" src="{{site.profile-picture}}" alt="Profile Picture">
-          {% endif %}
+          
 
           {% if site.description != '' or site.enable_contact == true %}
           <p class="text-center">
             {% if site.description != '' %}
             {{site.description}}
             {% endif %}
+
+          {% if site.profile-picture != '' %}
+          <img class="img-circle center-block" src="{{site.profile-picture}}" alt="Profile Picture">
+          {% endif %}
 
             {% if site.enable_contact == true %}
             {% include contact.html %}
@@ -33,6 +35,9 @@
 
             {% if site.twitter_username != '' %}
               <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+            {% endif %}
+            {% if site.bluesky_username != '' %}
+              <a href="https://bsky.app/profile/{{ site.bluesky_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-bluesky fa-lg"></i>Bluesky</button></a>
             {% endif %}
             {% if site.github_username != '' %}
               <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>

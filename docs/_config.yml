@@ -24,8 +24,9 @@ profile-picture: /img/posts/me.jpg
 description: "I'm a indie game developer and HAM radio operator from Nazareth, PA"
 #baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://gmill728.github.io/docs" # the base hostname & protocol for your site, e.g. http://example.com
-bluesky_username: felt_curious
+bluesky_username: felt_curious.bsky.social
 github_username:  gmill728
+
 
 # Build settings
 markdown: kramdown
