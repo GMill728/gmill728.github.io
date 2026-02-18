@@ -22,6 +22,7 @@ pagination:
   Game development senior with a background in IT and computer science, seeking a technical or creative
   role to design and build high-quality, innovative interactive experiences.
 
+---
 
 ## Education
   B.S. Kutztown University of Pennsylvania _Kutztown, PA_
@@ -31,16 +32,20 @@ pagination:
   **Dual Minors: Information Technology & Computer Science**
   <br/>_GPA: 3.5_
 
+---
+
 ## Related Coursework
   * 3D Game Development
   * 2D Game Development
-  * Creative Writing: Short Fiction
+  * Software Rapid Prototyping
   * Circuit Analysis
 
 ## Certifications and Licenses
   FCC Amateur Radio Operator, licensed Technician (KD3BNM)
   
   _2025 – Present_
+
+---
 
 ## Work Experience
   
@@ -70,6 +75,8 @@ pagination:
   * Utilized analytical skills to interpret KPI reports, identifying opportunities for increased sales and
     improved customer loyalty, resulting in increased sales and repeat business.
   * Helped train new team members on company policies and customer service.
+
+---
 
 ## Campus Involvement
 
