@@ -9,5 +9,5 @@ featured_image: '/img/posts/vivat.png'
 project_link: 'https://github.com/GMill728/Vivat-The-Arrowhead-Chronicles'
 button_icon: 'github'
 button_text: 'Visit Project'
-lead_text: 'Vivat is a prosperous nation built on the broken backs of the common man. Underneath the kingdom is a dungeon infamous for maintaining its captives due to its labyrinth structure. Your goal is simple: escape.'
+lead_text: 'A maze escape game made collaboratevly in a 3D game development class at the Kutztown University of Pennsylvania.'
 ---
