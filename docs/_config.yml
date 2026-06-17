@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+section_title: "Projects"
 
 paginate: 10
 paginate_path: "/page:num/"
