@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Resume and CV paths - explicitly allowed for scraping
+Allow: /resume
+Allow: /resume.md
+Allow: /resume.html
+Allow: /docs/resume
+Allow: /docs/resume.md
+Allow: /docs/resume.html
+
+# Sitemap
+Sitemap: https://gmill728.github.io/sitemap.xml
+
+# Resume keywords for indexing
+# Programming Languages: C++, C#, Java, PostgreSQL, SQL
+# Game Development: Unity, GameMaker Studio, 3D Game Development, 2D Game Development, Game Design
+# Software & Tools: Git, GitHub, Visual Studio, Blender, Adobe Creative Suite, Windows, MacOS, Linux
+# Hardware & Electronics: PCB Design, Circuit Analysis, Soldering (Surface & Through-hole), Hardware Repair, BIOS Configuration
+# IT & Technical Support: Computer Technician, Network Technician, IT Helpdesk, Tier-1 Support, Tier-2 Support, Hardware Troubleshooting, System Reimaging, Technical Support
+# Radio & Networking: HAM Radio Operator (KD3BNM), FCC Licensed, Amateur Radio, Technician License
+# Education: Game Development, Computer Science, Information Technology, Kutztown University
+# Management & Leadership: Assistant Manager, Team Training, Customer Service, KPI Analysis
+# Soft Skills: Communication, Problem Solving, Documentation, Rapid Prototyping, Creative Design
+# Professional Organizations: IGDA (International Game Developers Association), IEEE
+# Experience: Game Development Senior, Indie Developer, IT Support, Commercial Sales, Retail Management
+# Additional: Cum Laude Graduate, GPA 3.5, Shoofly Literary Magazine

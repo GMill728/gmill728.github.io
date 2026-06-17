@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Gavin's Portfolio"
+title: "Gavin Mills"
 email: 'gavv.inquires@gmail.com'
 profile-picture: /img/posts/me.jpg
-description: "I'm a indie game developer and HAM radio operator from Nazareth, PA"
+description: "Indie game developer and HAM radio operator from Nazareth, PA"
 #baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://gmill728.github.io/docs" # the base hostname & protocol for your site, e.g. http://example.com
 #bluesky_username: felt-curious.bsky.social
@@ -35,8 +35,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
-section_title: "Projects"
 
 paginate: 10
 paginate_path: "/page:num/"
