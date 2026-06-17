@@ -17,7 +17,7 @@
 @import '../_sass/mixins';
 
 $primary: #0a0a0a;
-$secondary: #FF7B7B;
+$secondary: #00720f;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
 %merriweather { font-family: 'Merriweather', serif; }
@@ -33,7 +33,7 @@ $secondary: #FF7B7B;
 }
 
 body {
-  background-color: #e9edf0;
+  background-color: #4b4b4b;
   @extend %opensans;
   -webkit-font-smoothing: antialiased;
 }
@@ -55,7 +55,7 @@ p {
 a {
   @include transition(color .2s ease-in-out);
   &:hover {
-    color: #FF5B33;
+    color: #007e07;
     text-decoration: none;
   }
 }
@@ -72,8 +72,8 @@ button.btn, input.btn {
   color: #2E4453;
   font-weight: 600;
   &:hover, &.btn-default:hover {
-    background-color: white;
-    border: solid 1px #b0c5d2;
+    background-color: rgb(146, 145, 145);
+    border: solid 1px #000000;
     -moz-box-shadow: 0 1px 0 #b0c5d2;
     -webkit-box-shadow: 0 1px 0 #b0c5d2;
     box-shadow: 0 1px 0 #b0c5d2;
@@ -88,7 +88,7 @@ button.btn, input.btn {
 }
 
 .main {
-  background-color: white;
+  background-color: rgb(56, 56, 56);
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
   &.container {
