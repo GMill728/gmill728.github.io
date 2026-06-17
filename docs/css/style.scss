@@ -94,7 +94,8 @@ button.btn, input.btn {
   margin: 2em 0.5em;
   border: solid 1px #d5e0e7;
   border-radius: 4px;
-  color: #2E4453;
+  background-color: #a7afa5;//#bae8b5;//remove for white buttons
+  //color: #2E4453;
   font-weight: 600;
   &:hover, &.btn-default:hover {
     background-color: white;
@@ -207,6 +208,37 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	2.1 Contact
 --------------------------------------------------------------*/
+.side-decor {
+  position: fixed;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.side-decor-left {
+  left: 16px;
+}
+
+.side-decor-right {
+  right: 16px;
+}
+
+.side-decor .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(160, 173, 189, 0.55);
+  box-shadow: 0 0 0 8px rgba(160, 173, 189, 0.08);
+}
+
+@include bp-xsmall {
+  .side-decor { display: none; }
+}
+
 .modal-header {
   border-bottom: none;
   button {
@@ -405,7 +437,6 @@ button.btn, input.btn {
   object-fit: cover;
   //border-radius: 50%; //! uncomment to make a circle
   border-radius: 0%;//square
-  margin-top: 30px;   /* instead of padding */
 }
 
 .center-block {

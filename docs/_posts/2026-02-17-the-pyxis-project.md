@@ -9,5 +9,5 @@ featured_image: '/img/posts/PyxWavingClear.png'
 project_link: 'https://github.com/GMill728/The-Pyxis-Project'
 button_icon: 'github'
 button_text: 'Visit Project'
-lead_text: 'A procedurally generated movement shooter made collaboratevly for a capstone class at the Kutztown University of Pennsylvania.  1.0.0 release on May 4, 2026.'
+lead_text: 'A procedurally generated retro movement shooter made collaboratevly for a capstone class at the Kutztown University of Pennsylvania.  Early Access released on May 4, 2026.'
 ---
