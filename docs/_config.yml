@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Gavin Mills <br/> Software Developer <br/> Game Development"
+title: "Gavin Mills <br/> Software and Game Developer"
 email: 'gavv.inquires@gmail.com'
 profile-picture: /img/posts/me4.png
 description: "Gavin Mills is a software developer specializing in game development, C#, Unity, and interactive technology projects."
