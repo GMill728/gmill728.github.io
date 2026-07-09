@@ -43,7 +43,7 @@ is part of a larger C++ project where I implemented merge, insertion, and quicks
 algorithms in order to calculate how efficiently they sorted 2,000, 10,000, amd 100,000
 random integers.
 
-```C++
+```cpp
     void merge(const vector<int>& left, const vector<int>& right,
             vector<int>& result, long long& comparisons) {
 
@@ -81,10 +81,8 @@ random integers.
 
         merge(left, right, S, comparisons);
     }
-
-
-
 ```
+---
 
 ## Fisher-Yates Shuffling
 *Language: Java*
@@ -94,7 +92,7 @@ creating the functionality of that game I didn't want to use the standard `.shuf
 method for the card deck.  I knew I had to instead decide on a shuffle algorithm.
 I landed on the Fisher-Yates; here is my implementation.
 
-```Java
+```java
     public void shuffle() {
         top = 0;
         cardsDealt = 0;
@@ -108,6 +106,7 @@ I landed on the Fisher-Yates; here is my implementation.
         }
     }
 ```
+---
 
 ## Summary of 5-Card Poker
 *Language: Java*
@@ -121,7 +120,7 @@ my thought process on larger systems.  Here is how I wrote the hand ranking and 
 ### compareTo()
 To compare the hands together I had a few different ways of doing things.  Since poker hand rankings have a natural ordering, 
 I represented them as enums and used their ordinal values to compare relative strength.  
-```Java
+```java
     @Override
     public int compareTo(PokerHand hand){
         if (this.handRank().ordinal() > hand.handRank().ordinal()) {
@@ -143,7 +142,7 @@ make sure everything was as modular as possible.  For this I wrote many helper m
 These functions allow me to get an array of scores of each card, sort them, and then call 
 the `evaluateHand()` method to see what rank the hand is.  Then I can return that as the `handRank()`.
 
-```Java
+```java
     public HandRank handRank() {
         int[] handScore = this.getScore();
         sortHand(handScore);
@@ -156,7 +155,7 @@ To evaluate hands, rather than tracking integers and assigning unnecessary value
 made a tree of else if statements, each calling their evaluation logics till a hand finds it's match.
 It will then return an enum with it's hand value.  
 
-```Java
+```java
     private static HandRank evaluateHand(int[] hand) {
         if (isRoyalFlush(hand)) {
             return HandRank.RoyalFlush;
