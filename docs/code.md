@@ -41,7 +41,7 @@ non-rectangular rooms for the levels.
 
 Below is a snippet of my implementation of a merge sort algorithms.  This
 is part of a larger C++ project where I implemented merge, insertion, and quicksort
-algorithms in order to calculate how efficiently they sorted 2,000, 10,000, amd 100,000
+algorithms in order to calculate how efficiently they sorted 2,000, 10,000, and 100,000
 random integers.
 
 ```cpp
