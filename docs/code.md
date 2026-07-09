@@ -33,3 +33,53 @@ allowed me to create non-rectangular rooms for the levels.
             }
     }
 ```
+---
+
+## Manhattan Distance Pathfinding
+*Language: Processing*
+
+Below is a snippet of my implementation of a merge sort algorythm.  This
+is part of a larger C++ project where I implemented merge, insertion, and quicksort
+algorythms in order to calculate how efficiently they sorted 2,000, 10,000, amd 100,000
+random integers.
+
+```C++
+void mergeSort(vector<int>& S, long long& comparisons) {
+    if (S.size() < 2)
+        return;
+
+    int mid{static_cast<int>(S.size() / 2)};
+
+    vector<int> left(S.begin(), S.begin() + mid);
+    vector<int> right(S.begin() + mid, S.end());
+
+    mergeSort(left, comparisons);
+    mergeSort(right, comparisons);
+
+    merge(left, right, S, comparisons);
+}
+
+
+void merge(const vector<int>& left, const vector<int>& right,
+           vector<int>& result, long long& comparisons) {
+
+    result.resize(left.size() + right.size());
+
+    int i{0}, j{0}, k{0};
+
+    while (i < left.size() && j < right.size()) {
+        comparisons++;
+
+        if (left[i] <= right[j])
+            result[k++] = left[i++];
+        else
+            result[k++] = right[j++];
+    }
+
+    while (i < left.size())
+        result[k++] = left[i++];
+
+    while (j < right.size())
+        result[k++] = right[j++];
+}
+```
