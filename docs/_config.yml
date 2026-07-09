@@ -109,6 +109,7 @@ nav_item:
   # - { url: '/about', text: 'About' } ##eventually add an about page
   # - { url: '/blog', text: 'Blog' } ##eventually add a blog page
   - { url: '/resume', text: 'Resume' }
+  - { url: '/code', text: 'Example Code' }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
