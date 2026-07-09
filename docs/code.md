@@ -5,6 +5,7 @@ pagination:
 ---
 
 # Examples of My Work
+---
 
 ## Manhattan Distance Pathfinding
 *Language: Processing*
