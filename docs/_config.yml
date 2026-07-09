@@ -100,7 +100,7 @@ pagination:
 footer_text: '© 2026 Gavin Mills'
 admin_name: 'Gavin Mills'
 #google_analytics: "" # Update with your own tracking ID
-enable_contact: false
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true
