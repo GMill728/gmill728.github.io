@@ -153,7 +153,7 @@ the `evaluateHand()` method to see what rank the hand is.  Then I can return tha
 ### evaluateHand()
 To evaluate hands, rather than tracking integers and assigning unnecessary values, I simply
 made a tree of else if statements, each calling their evaluation logics till a hand finds it's match.
-It will then return an enum with it's hand value.  
+It will then return an enum with it's hand rank.  
 
 ```java
     private static HandRank evaluateHand(int[] hand) {
