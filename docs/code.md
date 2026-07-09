@@ -25,8 +25,9 @@ non-rectangular rooms for the levels.
                 int xCenter = roomWidth / 2;
                 int yCenter = roomHeight / 2;
                 int radius = min(roomWidth, roomHeight) / 2;
-
-                if (abs(x - xCenter) + abs(y - yCenter) > radius){//if it's past the manhattan distance then wall it off
+                if (abs(x - xCenter) + abs(y - yCenter) > radius){
+                    //if it's past the manhattan distance then cull
+                    
                     room[x][y] = new Wall();
                     continue;
                 }
