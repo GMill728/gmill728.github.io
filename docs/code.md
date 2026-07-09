@@ -44,43 +44,43 @@ algorithms in order to calculate how efficiently they sorted 2,000, 10,000, amd 
 random integers.
 
 ```C++
-void merge(const vector<int>& left, const vector<int>& right,
-           vector<int>& result, long long& comparisons) {
+    void merge(const vector<int>& left, const vector<int>& right,
+            vector<int>& result, long long& comparisons) {
 
-    result.resize(left.size() + right.size());
+        result.resize(left.size() + right.size());
 
-    int i{0}, j{0}, k{0};
+        int i{0}, j{0}, k{0};
 
-    while (i < left.size() && j < right.size()) {
-        comparisons++;
+        while (i < left.size() && j < right.size()) {
+            comparisons++;
 
-        if (left[i] <= right[j])
+            if (left[i] <= right[j])
+                result[k++] = left[i++];
+            else
+                result[k++] = right[j++];
+        }
+
+        while (i < left.size())
             result[k++] = left[i++];
-        else
+
+        while (j < right.size())
             result[k++] = right[j++];
     }
 
-    while (i < left.size())
-        result[k++] = left[i++];
+    void mergeSort(vector<int>& S, long long& comparisons) {
+        if (S.size() < 2)
+            return;
 
-    while (j < right.size())
-        result[k++] = right[j++];
-}
+        int mid{static_cast<int>(S.size() / 2)};
 
-void mergeSort(vector<int>& S, long long& comparisons) {
-    if (S.size() < 2)
-        return;
+        vector<int> left(S.begin(), S.begin() + mid);
+        vector<int> right(S.begin() + mid, S.end());
 
-    int mid{static_cast<int>(S.size() / 2)};
+        mergeSort(left, comparisons);
+        mergeSort(right, comparisons);
 
-    vector<int> left(S.begin(), S.begin() + mid);
-    vector<int> right(S.begin() + mid, S.end());
-
-    mergeSort(left, comparisons);
-    mergeSort(right, comparisons);
-
-    merge(left, right, S, comparisons);
-}
+        merge(left, right, S, comparisons);
+    }
 
 
 
@@ -95,18 +95,18 @@ method for the card deck.  I knew I had to instead decide on a shuffle algorithm
 I landed on the Fisher-Yates; here is my implementation.
 
 ```Java
-public void shuffle() {
-    top = 0;
-    cardsDealt = 0;
+    public void shuffle() {
+        top = 0;
+        cardsDealt = 0;
 
-    for(int i = deck.length - 1; i > top; i--) {
-        int rnd = (int) (Math.random() * (i + 1));
+        for(int i = deck.length - 1; i > top; i--) {
+            int rnd = (int) (Math.random() * (i + 1));
 
-        Card temp = deck[rnd];
-        deck[rnd] = deck[i];
-        deck[i] = temp;
+            Card temp = deck[rnd];
+            deck[rnd] = deck[i];
+            deck[i] = temp;
+        }
     }
-}
 ```
 
 ## Summary of 5-Card Poker
@@ -122,18 +122,18 @@ my thought process on larger systems.  Here is how I wrote the hand ranking and 
 To compare the hands together I had a few different ways of doing things.  Since poker hand rankings have a natural ordering, 
 I represented them as enums and used their ordinal values to compare relative strength.  
 ```Java
-@Override
-public int compareTo(PokerHand hand){
-    if (this.handRank().ordinal() > hand.handRank().ordinal()) {
-        return 1; 
+    @Override
+    public int compareTo(PokerHand hand){
+        if (this.handRank().ordinal() > hand.handRank().ordinal()) {
+            return 1; 
+        }
+        if (this.handRank().ordinal() < hand.handRank().ordinal()) {
+            return -1; 
+        }
+        else{
+            return this.tieHigh(hand);
+        }
     }
-    if (this.handRank().ordinal() < hand.handRank().ordinal()) {
-        return -1; 
-    }
-    else{
-        return this.tieHigh(hand);
-    }
-}
 ```
 
 ### handRank()
@@ -144,11 +144,11 @@ These functions allow me to get an array of scores of each card, sort them, and 
 the `evaluateHand()` method to see what rank the hand is.  Then I can return that as the `handRank()`.
 
 ```Java
-public HandRank handRank() {
-    int[] handScore = this.getScore();
-    sortHand(handScore);
-    return evaluateHand(handScore);
-}
+    public HandRank handRank() {
+        int[] handScore = this.getScore();
+        sortHand(handScore);
+        return evaluateHand(handScore);
+    }
 ```
 
 ### evaluateHand()
@@ -157,27 +157,27 @@ made a tree of else if statements, each calling their evaluation logics till a h
 It will then return an enum with it's hand value.  
 
 ```Java
-private static HandRank evaluateHand(int[] hand) {
-    if (isRoyalFlush(hand)) {
-        return HandRank.RoyalFlush;
-    } else if (isStraightFlush(hand)) {
-        return HandRank.StraightFlush;
-    } else if (isFourOfAKind(hand)) {
-        return HandRank.FourOfAKind;
-    } else if (isFullHouse(hand)) {
-        return HandRank.FullHouse;
-    } else if (isFlush(hand)) {
-        return HandRank.Flush;
-    } else if (isStraight(hand)) {
-        return HandRank.Straight;
-    } else if (isThreeOfAKind(hand)) {
-        return HandRank.ThreeOfAKind;
-    } else if (isTwoPair(hand)) {
-        return HandRank.TwoPair;
-    } else if (isOnePair(hand)) {
-        return HandRank.OnePair;
-    } else {
-        return HandRank.HighCard;
+    private static HandRank evaluateHand(int[] hand) {
+        if (isRoyalFlush(hand)) {
+            return HandRank.RoyalFlush;
+        } else if (isStraightFlush(hand)) {
+            return HandRank.StraightFlush;
+        } else if (isFourOfAKind(hand)) {
+            return HandRank.FourOfAKind;
+        } else if (isFullHouse(hand)) {
+            return HandRank.FullHouse;
+        } else if (isFlush(hand)) {
+            return HandRank.Flush;
+        } else if (isStraight(hand)) {
+            return HandRank.Straight;
+        } else if (isThreeOfAKind(hand)) {
+            return HandRank.ThreeOfAKind;
+        } else if (isTwoPair(hand)) {
+            return HandRank.TwoPair;
+        } else if (isOnePair(hand)) {
+            return HandRank.OnePair;
+        } else {
+            return HandRank.HighCard;
+        }
     }
-}
 ```
