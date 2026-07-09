@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 
+# Sitemap
+Sitemap: https://gmill728.github.io/sitemap.xml
+
 # Resume and CV paths - explicitly allowed for scraping
 Allow: /resume
 Allow: /resume.md
@@ -9,9 +12,14 @@ Allow: /docs/resume
 Allow: /docs/resume.md
 Allow: /docs/resume.html
 
+#code portfolio paths - explicit allow
+Allow: /code
+Allow: /code.md
+Allow: /code.html
+Allow: /docs/code
+Allow: /docs/code.md
+Allow: /docs/code.html
 
-# Sitemap
-Sitemap: https://gmill728.github.io/sitemap.xml
 
 # Resume keywords for indexing
 # Programming Languages: C++, C#, Java, PostgreSQL, SQL
