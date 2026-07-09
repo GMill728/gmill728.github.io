@@ -14,7 +14,7 @@ built on Java tailor made for graphic applications.  In this snippet I applied a
 as Manhattan Distance to "Pathfind" between two grid tiles and make a boundry for my dungeon.  This
 allowed me to create non-rectangular rooms for the levels.
 
-'''Java
+```java
     for (int y = 0; y < roomHeight; y++) {
             for (int x = 0; x < roomWidth; x++) {
 
@@ -31,4 +31,4 @@ allowed me to create non-rectangular rooms for the levels.
                 }
             }
     }
-'''
+```
