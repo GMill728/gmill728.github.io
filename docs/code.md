@@ -139,7 +139,7 @@ I represented them as enums and used their ordinal values to compare relative st
 ### handRank()
 To get the ranks of the hands I could have written everything in one large method but I wanted to 
 make sure everything was as modular as possible.  For this I wrote many helper methods such as
-`.getScore()`, `sortHand()`, and `evaluateHand()` which we'll ge to later.  
+`.getScore()`, `sortHand()`, and `evaluateHand()` which we'll get to later.  
 These functions allow me to get an array of scores of each card, sort them, and then call 
 the `evaluateHand()` method to see what rank the hand is.  Then I can return that as the `handRank()`.
 
