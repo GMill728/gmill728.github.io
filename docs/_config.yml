@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-favicon: "/favicon.ico"
+
 title: "Gavin Mills"
 email: 'gavv.inquires@gmail.com'
 profile-picture: /img/posts/me4.png

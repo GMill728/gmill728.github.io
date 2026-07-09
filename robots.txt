@@ -9,6 +9,7 @@ Allow: /docs/resume
 Allow: /docs/resume.md
 Allow: /docs/resume.html
 
+
 # Sitemap
 Sitemap: https://gmill728.github.io/sitemap.xml
 
