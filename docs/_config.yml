@@ -20,7 +20,8 @@
 
 title: "Hello. I'm Gavin Mills."
 email: 'gavv.inquires@gmail.com'
-profile-picture: # /img/posts/me4.png
+profile-picture: 
+# /img/posts/me4.png
 description: "I'm a software and game developer from Nazareth, PA."
 #baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://gmill728.github.io/docs" # the base hostname & protocol for your site, e.g. http://example.com
