@@ -11,16 +11,16 @@ pagination:
 ## Skills & Qualifications
 
 |:---------------------------:|:-----------------------:|:-----------------------------------------:|
-| C++                       | Unity                   | Blender                                   |     
-| C#                        | GameMaker Studio        | Adobe Creative Suite                      |
-| Java                      | Git/GitHub              | PCB design                                |
-| PostgreSQL                | Visual Studio           | Soldering (Surface & Through-hole)        |
-| Circuit Analysis          | Windows                 | MacOS                                     |
-| Linux                     |                         |                                           |
+| C++                         | Unity                   | Blender                                   |     
+| C#                          | GameMaker Studio        | Circuit Analysis                          |
+| Java                        | Godot                   | PCB design                                |
+| PostgreSQL                  | OpenXR                  | Soldering (Surface & Through-hole)        |
+| HTML5                       | Git/GitHub              | Windows                                   |
+| Visual Studio               | CI/CD                   | Linux                                     |
+| Adobe Creative Suite        | Docker                  | MacOS                                     |
 
 ## Profile
-  Game development senior with a background in IT and computer science, seeking a technical or creative
-  role to design and build high-quality, innovative interactive experiences.
+  Game Development graduate with dual minors in Information Technology and Computer Science, seeking an entry-level role in game development, software development, or IT. Leadership and DevOps skills with experience in C++, C#, Java, Unity, Godot , GameMaker, and Git. Passionate about creating unique interactive experiences.
 
 ---
 
@@ -48,17 +48,23 @@ pagination:
 ---
 
 ## Work Experience
+
+  **On-Site IT Technician**, Plants + Coffee, Easton, PA
+  
+  _June 2025 – Present_
+
+  * Monitor and maintain five business networks, analyze system logs, and produce network performance and incident reports.
+  * Manage network security, user permissions, and access controls to maintain secure and reliable business operations.
+  * Respond to on-call network and POS system failures.
+  * Primary point of contact for technical issues.
   
   **Computer and Network Technician**, Kutztown University, Kutztown, PA
   
   _Aug. 2025 – May 2026_
 
-  * Diagnosed and repaired hardware issues in desktops and laptops, including component replacement,
-  system reimaging, and BIOS configuration to ensure reliable performance for faculty and students.
-  * Provided tier-1 and tier-2 technical support via helpdesk ticketing system, troubleshooting user issues
-  remotely and on-site with an emphasis on clear communication and documentation.
-  * Assisted senior IT personnel in tracking and resolving recurring network issues, contributing to
-  documentation for future preventive maintenance.
+  * Diagnosed and repaired desktop and laptop hardware issues, including component replacement, system reimaging, and BIOS configuration.	 
+  * Provided Tier 1 and Tier 2 technical support through a helpdesk ticketing system, resolving hardware, software, and user issues remotely and on-site.
+  * Assisted senior IT personnel in identifying recurring network issues and maintaining technical documentation for future troubleshooting.
 
   **AutoZoner**, AutoZone, Nazareth, PA 
   
