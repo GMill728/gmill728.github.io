@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Gavin Mills <br/> Software and Game Developer"
+title: "Hello. I'm Gavin Mills."
 email: 'gavv.inquires@gmail.com'
 profile-picture: /img/posts/me4.png
-description: "Gavin Mills is a software developer specializing in game development, C#, Unity, and interactive technology projects."
+description: "I'm a software and game developer from Nazareth, PA."
 #baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://gmill728.github.io/docs" # the base hostname & protocol for your site, e.g. http://example.com
 #bluesky_username: felt-curious.bsky.social
@@ -100,7 +100,7 @@ pagination:
 footer_text: '© 2026 Gavin Mills'
 admin_name: 'Gavin Mills'
 #google_analytics: "" # Update with your own tracking ID
-enable_contact: false
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true
