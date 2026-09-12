@@ -12,12 +12,12 @@ pagination:
 
 |:---------------------------:|:-----------------------:|:-----------------------------------------:|
 | C++                         | Unity                   | Blender                                   |     
-| C#                          | GameMaker Studio        | Circuit Analysis                          |
+| C#                          | GameMaker               | Circuit Analysis                          |
 | Java                        | Godot                   | PCB design                                |
 | PostgreSQL                  | OpenXR                  | Soldering (Surface & Through-hole)        |
 | HTML5                       | Git/GitHub              | Windows                                   |
 | Visual Studio               | CI/CD                   | Linux                                     |
-| Adobe Creative Suite        | Docker                  | MacOS                                     |
+| Adobe Suite                 | Docker                  | MacOS                                     |
 
 ## Profile
   Game Development graduate with dual minors in Information Technology and Computer Science, seeking an entry-level role in game development, software development, or IT. Leadership and DevOps skills with experience in C++, C#, Java, Unity, Godot , GameMaker, and Git. Passionate about creating unique interactive experiences.
